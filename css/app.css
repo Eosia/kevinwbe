@@ -1,0 +1,509 @@
+header {
+  background-image: url("../img/header.jpg");
+  background-position: 100% 100%;
+  background-size: 100% 100%;
+  width: 100%;
+  height: 100vh;
+  margin: auto;
+}
+header div nav {
+  margin: auto;
+}
+header div nav ul {
+  text-align: center;
+  margin: auto;
+  width: 100%;
+}
+header div nav ul li {
+  margin: auto;
+  font-size: 1.2em;
+  letter-spacing: 1px;
+  font-family: "pl";
+  font-weight: 900;
+  text-align: center;
+  height: auto;
+}
+header div nav ul li a {
+  color: white;
+}
+header div nav ul li a:hover {
+  transform: scale(1.1);
+  border-bottom: 3px solid #6f97fc;
+  text-align: center !important;
+}
+header .title-header {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: auto;
+  margin: 20vh auto;
+  text-align: center;
+  width: 40%;
+}
+header .title-header h1 {
+  font-size: 4.2em;
+  font-family: "rocket";
+  font-weight: 900;
+  color: #fff;
+  text-align: center;
+  height: auto;
+  margin: auto;
+  width: 80%;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+header .title-header figure {
+  text-align: center;
+  height: auto;
+  margin: auto;
+  width: 20%;
+  height: auto;
+}
+header .title-header figure a {
+  margin: auto;
+}
+header .title-header figure a img {
+  width: 150px;
+  height: auto;
+  margin: auto;
+}
+header h2 {
+  width: 80%;
+  height: 5vh;
+  margin: 70px auto;
+  font-size: 24px;
+  font-weight: 500;
+  font-style: italic;
+  letter-spacing: 10px;
+  color: white;
+  text-align: center;
+  font-family: "go";
+}
+header a {
+  width: 20px;
+  height: auto;
+  margin: 10px auto auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header a img {
+  width: 125px;
+  height: auto;
+  margin: auto;
+}
+
+/*wrapper page accueil start*/
+.wrapper-accueil {
+  width: 100%;
+  height: 400px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../img/unnamed.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  opacity: 0.8;
+  z-index: 100;
+}
+
+/*wrapper page accueil end*/
+/*section page accueil*/
+.section-accueil {
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #133840;
+}
+.section-accueil div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.section-accueil div figure {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  text-align: center;
+}
+.section-accueil div figure img {
+  border-radius: 150px;
+  width: 300px;
+  height: auto;
+  margin: auto;
+}
+.section-accueil .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 50px auto;
+  background-color: #dbdbdb;
+  width: 95%;
+  height: auto;
+  border-radius: 20px;
+  padding: 50px 20px;
+}
+.section-accueil .text p {
+  width: 80%;
+  font-size: 1.6em;
+  text-align: center;
+  margin: 3vh auto;
+}
+
+/*wrapper page accueil start*/
+.wrapper-accueil {
+  width: 100%;
+  height: 400px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("../img/unnamed.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  opacity: 0.8;
+  z-index: 100;
+}
+
+/*wrapper page accueil end*/
+/*section page accueil*/
+.section-accueil {
+  margin: 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  background-color: #133840;
+}
+.section-accueil div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+.section-accueil div figure {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  text-align: center;
+}
+.section-accueil div figure img {
+  border-radius: 150px;
+  width: 300px;
+  height: auto;
+  margin: auto;
+}
+.section-accueil .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 50px auto;
+  background-color: #dbdbdb;
+  width: 95%;
+  height: auto;
+  border-radius: 20px;
+  padding: 50px 20px;
+}
+.section-accueil .text p {
+  width: 80%;
+  font-size: 1.6em;
+  text-align: center;
+  margin: 3vh auto;
+}
+
+.section-competences {
+  height: auto;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.section-competences h5 {
+  font-size: 1.8em;
+  text-decoration: underline;
+  font-family: "go";
+  font-weight: 600;
+  letter-spacing: 15px;
+  margin: 50px auto;
+}
+.section-competences hr {
+  font-size: 5px;
+  background-color: #dbdbdb;
+  color: #dbdbdb;
+  margin: 70px auto 30px;
+  width: 90%;
+  height: 3px;
+}
+.section-competences .bloc {
+  width: 100%;
+  height: 15vh;
+  margin: 20px auto;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid #dbdbdb;
+  background-color: #133840;
+  border-radius: 15px;
+}
+.section-competences .bloc .col-g {
+  margin: auto;
+}
+.section-competences .bloc .col-g p {
+  font-size: 1.8em;
+  font-family: "pl";
+  letter-spacing: 5px;
+  color: #dbdbdb;
+}
+.section-competences .bloc .col-d {
+  margin: auto;
+}
+
+.section-contact {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+  padding: 50px;
+  background-color: #133840;
+  /*formulaire de contact start*/
+  /*formulaire de contact end*/
+  /*section social start*/
+  /*section social end*/
+}
+.section-contact #contact {
+  width: 90%;
+  margin: 100px auto;
+  margin-top: 100px;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+}
+.section-contact #contact h4 {
+  font-size: 32px;
+}
+.section-contact #contact form {
+  margin-top: 5vh;
+}
+.section-contact #contact form .champ {
+  width: 100%;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid #ccc;
+  font-size: 17px;
+  margin: 30px auto;
+  height: 45px;
+  color: #fff;
+  text-align: center;
+}
+.section-contact #contact form .bouton {
+  width: 30%;
+  margin-top: 15px;
+  background: #d9d9d9;
+  border-color: transparent;
+  color: #000;
+  font-size: 21px;
+  font-weight: bold;
+  height: 45px;
+}
+.section-contact #contact form .bouton:hover {
+  background: red;
+  cursor: pointer;
+}
+.section-contact #contact form .red {
+  background: #F00;
+}
+.section-contact #contact form .green {
+  background: #060;
+}
+.section-contact .social {
+  margin: 100px auto;
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.section-contact .social figure {
+  margin: auto;
+  width: 100%;
+  height: auto;
+}
+.section-contact .social figure a {
+  margin: auto;
+  width: 100%;
+  height: auto;
+}
+.section-contact .social figure a img {
+  width: 64px;
+  height: auto;
+  margin: auto;
+}
+.section-contact .social figure a img:hover {
+  background-color: #e5e5e5;
+  padding: 5px;
+  opacity: 0.7;
+  border-radius: 50px;
+  border: 3px outset #000;
+}
+
+footer {
+  display: flex !important;
+  justify-content: flex-end !important;
+  align-items: center;
+  margin: auto !important;
+  width: 100% !important;
+  height: 12vh !important;
+  background-color: #DBDBDB;
+  clear: both;
+}
+footer p {
+  width: auto;
+  height: auto;
+  margin: auto;
+  font-size: 4.2em;
+  color: #000;
+  font-weight: 900;
+  font-family: "rocket";
+}
+footer a {
+  margin: auto;
+  background-attachment: fixed;
+  width: 64px;
+  height: auto;
+  position: absolute;
+  right: 20px;
+}
+footer a img {
+  width: 64px;
+  height: 64px;
+  margin: auto;
+  margin-right: 20px !important;
+}
+
+/*section portfolio start*/
+.section-portfolio {
+  width: 100%;
+  height: auto;
+  margin: 50px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: baseline;
+  /*titre 4 start*/
+  /*titre 4 end*/
+}
+.section-portfolio .title-div {
+  width: 100%;
+  height: auto;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.section-portfolio .title-div h4 {
+  font-size: 1.8em;
+  text-decoration: underline;
+  color: #000;
+  font-family: "go";
+  font-weight: 600;
+  letter-spacing: 15px;
+  text-align: center;
+  margin: auto;
+}
+.section-portfolio .bloc {
+  margin: 50px auto;
+  height: 40vh;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  /*colonne gauche start*/
+  /*colonne gauche end*/
+  /*colonne droit start*/
+  /*colonne droit end*/
+}
+.section-portfolio .bloc .col-g {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border: 3px outset #DBDBDB;
+  background-color: #133840;
+  margin: auto;
+  padding: 10px;
+  height: 40vh;
+  border-radius: 15px;
+}
+.section-portfolio .bloc .col-g figure {
+  width: 100%;
+  height: auto;
+  margin: auto;
+  text-align: center;
+}
+.section-portfolio .bloc .col-g figure img {
+  width: 350px;
+  margin: auto;
+  padding: 10px;
+}
+.section-portfolio .bloc .col-g a {
+  color: #000;
+  background-color: #DBDBDB;
+  padding: 10px 20px;
+  margin: 40px auto;
+  text-decoration: none;
+  font-size: 1.1em;
+  font-family: "pl";
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  width: auto;
+  height: auto;
+  border: 3px solid #000;
+  font-family: "pl";
+}
+.section-portfolio .bloc .col-g a:hover {
+  color: red;
+  transform: scale(1.1);
+  box-shadow: 1px 1px 5px 5px #DBDBDB;
+}
+.section-portfolio .bloc .col-d {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #DBDBDB;
+  width: 100%;
+  height: 40vh;
+  margin: auto;
+  padding: 20px auto;
+  border-radius: 15px;
+}
+.section-portfolio .bloc .col-d img {
+  width: 100px;
+  height: auto;
+  margin: auto;
+}
+
+@font-face {
+  font-family: "go";
+  src: url("../fonts/go around the books.ttf");
+}
+@font-face {
+  font-family: "pl";
+  src: url("../fonts/Plateia Bold.ttf");
+}
+@font-face {
+  font-family: "rocket";
+  src: url("../fonts/ROCKET WILDNESS.ttf");
+}
+
+/*# sourceMappingURL=app.css.map */

@@ -1,0 +1,100 @@
+.section-contact{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #133840;
+
+    /*formulaire de contact start*/
+    #contact {
+        width: 90%;
+        margin: 100px auto;
+        margin-top: 100px;
+        text-align: center;
+        color: #fff;
+        text-transform: uppercase;
+        letter-spacing: 5px;
+        
+        h4{
+            font-size: 32px;
+        }
+
+        form {
+            margin-top: 5vh;
+
+            .champ {
+                width: 100%;
+                background: transparent;
+                border: none;
+                outline: none;
+                border-bottom: 1px solid #ccc;
+                font-size: 17px;
+                margin: 30px auto;
+                height: 45px;
+                color: #fff;
+                text-align: center;
+            }
+
+            .bouton {
+                width: 30%;
+                margin-top: 15px;
+                background: #d9d9d9;
+                border-color: transparent;
+                color: #000;
+                font-size: 21px;
+                font-weight: bold;
+                height: 45px;
+
+                &:hover{
+                    background: red;
+                    cursor: pointer;
+                }
+            }
+
+            .red {
+                background: #F00;
+            }
+            .green {
+                background: #060;
+            }
+        }
+    }
+    /*formulaire de contact end*/
+
+    /*section social start*/
+    .social{
+        margin: 100px auto;
+        width: 100%;
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        figure{
+            margin: auto;
+            width: 100%;
+            height: auto;
+            a{
+                margin: auto;
+                width: 100%;
+                height: auto;
+                img{
+                    width: 64px;
+                    height: auto;
+                    margin: auto;
+
+                    &:hover{
+
+                        background-color: #e5e5e5;
+                        padding: 5px;
+                        opacity: 0.7;
+                        border-radius: 50px;
+                        border: 3px outset #000;
+                    }
+                }
+            }
+        }
+    }
+    /*section social end*/
+
+}
